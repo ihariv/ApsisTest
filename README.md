@@ -149,4 +149,5 @@ To provide authentication I use middleware for all private token and session bas
 To perform only your own operations, it is enough to use the userId check in the token.
 To separate the rights to groups of operations, I would introduce roles for different groups of users.
 
-
+# Others
+(copiright) Not for commercial use only
