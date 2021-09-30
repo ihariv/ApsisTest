@@ -10,8 +10,6 @@
 
 # Counters. Test for ApsisRecruitment.
 
-**Table of Contents**
-
 # API
 ```
 POST		/login
@@ -147,7 +145,7 @@ Yes. For high-load systems, data denormalization is required. Data normalization
 ## Authentication
 ### How would you ensure that only authorised users can submit and/or retrieve data?
 To provide authentication I use middleware for all private token and session based operations. An example is shown in this document above.
-## How would you then add support to allow different users to only update specific counters? Or perform only specific operations?
+### How would you then add support to allow different users to only update specific counters? Or perform only specific operations?
 To perform only your own operations, it is enough to use the userId check in the token.
 To separate the rights to groups of operations, I would introduce roles for different groups of users.
 
