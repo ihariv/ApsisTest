@@ -150,4 +150,4 @@ To perform only your own operations, it is enough to use the userId check in the
 To separate the rights to groups of operations, I would introduce roles for different groups of users.
 
 # Others
-(copiright) Not for commercial use only
+(copyright) Not for commercial use only
